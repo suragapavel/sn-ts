@@ -1,7 +1,6 @@
-import React, {ChangeEvent, RefObject} from 'react';
+import React from 'react';
 import s from './MyPosts.module.css'
 import Post from "./Post/Post";
-import {ActionsType} from '../../../redux/store'
 import {PostsPropsType} from "./MyPostsContainer";
 import {PostsType} from "../../../redux/profile-reducer";
 
@@ -11,7 +10,8 @@ type MyPostsPropsType = PostsPropsType &  {
     posts: PostsType[]
     newPostText: string
 }
-
+// let Filter = require('bad-words');
+// let customFilter = new Filter({ placeHolder: '*'});
 export const MyPosts: React.FC<PostsPropsType> = (props) => {
 
     let postsElements = props.posts.map((p: PostsType) => <Post message={p.message} likesCount={p.likesCount}/>)
@@ -21,6 +21,7 @@ export const MyPosts: React.FC<PostsPropsType> = (props) => {
     }
     const onPostChange = () => {
         let text = newPostElement.current.value
+        //let text1 = customFilter.clean(text)
         props.onPostChange(text)
     }
     return (

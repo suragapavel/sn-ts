@@ -3,6 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="d8aa7344-694d-46e5-ae3a-7f70e8b1d5e3" name="Default Changelist" comment="new update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Users/Users.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/Users.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Users/UsersContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/UsersContainer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Users/users.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/users.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/users-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/users-reducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +47,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/redux" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/antispamnb_nodejs_azure_deploy_final" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
@@ -48,6 +57,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\sn-ts\src\components\Users" />
       <recent name="D:\sn-ts\src\redux" />
     </key>
   </component>
@@ -82,7 +92,17 @@
       <workItem from="1632146371260" duration="7431000" />
       <workItem from="1632210791330" duration="145000" />
       <workItem from="1632232279654" duration="5633000" />
-      <workItem from="1632237982232" duration="700000" />
+      <workItem from="1632237982232" duration="7753000" />
+      <workItem from="1633424222943" duration="620000" />
+      <workItem from="1633530943077" duration="605000" />
+      <workItem from="1633867618358" duration="1890000" />
+      <workItem from="1634402707624" duration="12119000" />
+      <workItem from="1634562936036" duration="1666000" />
+      <workItem from="1634633839284" duration="6968000" />
+      <workItem from="1634740828363" duration="27000" />
+      <workItem from="1635079780137" duration="2904000" />
+      <workItem from="1635139396189" duration="96000" />
+      <workItem from="1635757930908" duration="11715000" />
     </task>
     <task id="LOCAL-00001" summary="new update">
       <created>1632236350350</created>
@@ -112,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632238128837</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="new update">
+      <created>1632238986168</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1632238986168</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,7 +156,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="github/master" />
+                        <option value="origin/master" />
                       </list>
                     </value>
                   </entry>
