@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d8aa7344-694d-46e5-ae3a-7f70e8b1d5e3" name="Default Changelist" comment="new update">
+    <list default="true" id="d8aa7344-694d-46e5-ae3a-7f70e8b1d5e3" name="Default Changelist" comment="adding pagination of users">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Users/Users.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/Users.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Users/UsersContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/UsersContainer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Users/users.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/users.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/users-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/users-reducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +95,7 @@
       <workItem from="1634740828363" duration="27000" />
       <workItem from="1635079780137" duration="2904000" />
       <workItem from="1635139396189" duration="96000" />
-      <workItem from="1635757930908" duration="11715000" />
+      <workItem from="1635757930908" duration="17883000" />
     </task>
     <task id="LOCAL-00001" summary="new update">
       <created>1632236350350</created>
@@ -139,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632238986168</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="adding pagination of users">
+      <created>1635779494147</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1635779494147</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,6 +171,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new update" />
-    <option name="LAST_COMMIT_MESSAGE" value="new update" />
+    <MESSAGE value="adding pagination of users" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding pagination of users" />
   </component>
 </project>
