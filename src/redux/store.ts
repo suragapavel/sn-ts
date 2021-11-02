@@ -21,6 +21,7 @@ type MessagesType = {
 type ProfilePageType = {
     posts: Array<PostsType>
     newPostText: string
+    profile: any
 }
 
 export type DialogsPageType = {
@@ -57,6 +58,7 @@ export const store: StoreType = {
                 {id: 4, message: 'It\'s my first post', likesCount: 11},
             ],
             newPostText: 'it',
+            profile: null,
         },
         dialogsPage: {
             dialogs: [

@@ -4,12 +4,6 @@ import Post from "./Post/Post";
 import {PostsPropsType} from "./MyPostsContainer";
 import {PostsType} from "../../../redux/profile-reducer";
 
-type MyPostsPropsType = PostsPropsType &  {
-    updateNewPostText: (text:string)=> void
-    addPost: () => void
-    posts: PostsType[]
-    newPostText: string
-}
 // let Filter = require('bad-words');
 // let customFilter = new Filter({ placeHolder: '*'});
 export const MyPosts: React.FC<PostsPropsType> = (props) => {
