@@ -31,9 +31,13 @@ export type DialogsPageType = {
 }
 
 export type SideBarType = {}
-
+export type AuthType = {
+    isAuth: boolean
+    login: string
+}
 export type RootStateType = {
     profilePage: ProfilePageType
+    auth: AuthType
     dialogsPage: DialogsPageType
     sidebar: SideBarType
 }
@@ -59,6 +63,10 @@ export const store: StoreType = {
             ],
             newPostText: 'it',
             profile: null,
+        },
+        auth: {
+            isAuth: false,
+            login: '',
         },
         dialogsPage: {
             dialogs: [
