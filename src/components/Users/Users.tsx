@@ -3,6 +3,7 @@ import userPhoto from "../../assets/images/user.png";
 import styles from './users.module.css'
 import {UsersType} from "../../redux/users-reducer";
 import {NavLink} from "react-router-dom";
+import {usersAPI} from "../../api/api";
 
 
 type UsersPropsType = {
@@ -14,7 +15,6 @@ type UsersPropsType = {
     unFollow: (userId: number) => void
     onPageChanged: (pageNumber: number) => void
 }
-
 
 export let Users = (props: UsersPropsType) => {
     let pagesCount = Math.ceil(props.totalUsersCount / props.pageSize)
@@ -41,21 +41,31 @@ export let Users = (props: UsersPropsType) => {
     <div>
         {u.followed
             ? <button onClick={() => {
-                props.unFollow(u.id)
+                usersAPI.unfollow(u.id)
+                    .then(data => {
+                        if (data.resultCode === 0) {
+                            props.unFollow(u.id)
+                        }
+                    })
             }}>Unfollow</button>
             : <button onClick={() => {
-                props.follow(u.id)
+                    usersAPI.follow(u.id)
+                        .then(data => {
+                        if (data.resultCode === 0) {
+                            props.follow(u.id)
+                        }
+                    })
             }}>Follow</button>
         }
-    </div>
-    <span>
-        <span><div>{u.name}</div>
+            </div>
+            <span>
+            <span><div>{u.name}</div>
             <div>{u.status}</div>
-        </span>
-        <span><div>{'u.location.city'}</div>
+            </span>
+            <span><div>{'u.location.city'}</div>
             <div>{'u.location.country'}</div></span>
-    </span>
-</span>
+            </span>
+            </span>
                 </div>)
             }
         </div>)
